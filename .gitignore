@@ -12,9 +12,7 @@ dist/
 build/
 
 # YOLO Training outputs
-runs/
 weights/
-*.pt  # Model file (place your trained best.pt here)
 *.pth
 *.onnx
 *.engine
