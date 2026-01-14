@@ -1,5 +1,54 @@
-node_modules/
-.env
-uploads/
-*.log
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# YOLO Training outputs
+runs/
+weights/
+*.pt  # Model file (place your trained best.pt here)
+*.pth
+*.onnx
+*.engine
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (optional - uncomment if you don't want to track the dataset)
+# *.jpg
+# *.jpeg
+# *.png
+# *.txt
+# printed circuit board.v4-release-filtered.yolov11/
+
+# Cache
+.cache/
+*.cache

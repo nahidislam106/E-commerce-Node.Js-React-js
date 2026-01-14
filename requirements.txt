@@ -1,0 +1,26 @@
+# PCB Detection Backend - Requirements
+
+# Core Dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+
+# YOLO & Computer Vision
+ultralytics
+opencv-python
+opencv-contrib-python
+torch
+torchvision
+pillow
+
+# Data Processing
+numpy
+pandas
+
+# Additional utilities
+pydantic
+python-dotenv
+aiofiles
+
+# Optional: For GPU support
+# torch==2.2.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
